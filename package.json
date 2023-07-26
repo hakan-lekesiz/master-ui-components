@@ -1,0 +1,72 @@
+{
+  "name": "master-ui-components",
+  "private": false,
+  "version": "1.0.8",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "license": "MIT",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "./dist/style.css": "./dist/style.css",
+    ".": {
+      "require": "./dist/index.cjs.js",
+      "import": "./dist/index.es.js"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p build:*",
+    "build:scripts": "vite build",
+    "build:types": "tsc --emitDeclarationOnly && tsc-alias",
+    "prepublish": "yarn build",
+    "preview": "vite preview"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css,md,json}": "eslint --fix",
+    "*": "prettier -w -u"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.4.5",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "4",
+    "lint-staged": "^13.1.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.8.3",
+    "sass": "^1.57.1",
+    "tsc-alias": "^1.8.2",
+    "typed-css-modules": "^0.7.2",
+    "typed-scss-modules": "^7.0.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-svgr": "^2.4.0"
+  }
+}
