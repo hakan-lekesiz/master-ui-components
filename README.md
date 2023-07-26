@@ -31,5 +31,4 @@ const App = () => (
 ```
 
 ## Authors
-
-[![](https://media.licdn.com/dms/image/D4D03AQEybAN4LOM61g/profile-displayphoto-shrink_200_200/0/1670953539936?e=1695859200&v=beta&t=wpy3xdNWP2gaQepBbK2gQPUZmS_Gw5ZV6Rtfh2nkpW8?avatarHeight=36)](https://www.linkedin.com/in/hakan-lekesiz)
+- [Hakan Lekesiz](https://www.linkedin.com/in/hakan-lekesiz)
