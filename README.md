@@ -32,4 +32,4 @@ const App = () => (
 
 ## Authors
 
-[![](https://drive.google.com/file/d/1v-wfeSd1cDavB8UpnNWvRBzvyc5gimO2/view?usp=drive_link?avatarHeight=36)](https://www.linkedin.com/in/hakan-lekesiz)
+[![](https://media.licdn.com/dms/image/D4D03AQEybAN4LOM61g/profile-displayphoto-shrink_200_200/0/1670953539936?e=1695859200&v=beta&t=wpy3xdNWP2gaQepBbK2gQPUZmS_Gw5ZV6Rtfh2nkpW8?avatarHeight=36)](https://www.linkedin.com/in/hakan-lekesiz)
