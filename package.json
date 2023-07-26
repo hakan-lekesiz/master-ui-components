@@ -1,7 +1,19 @@
 {
   "name": "master-ui-components",
+  "description": "React UI components and util functions",
+  "title": "Hakan Lekesiz",
+  "keywords": [
+    "component",
+    "components",
+    "framework",
+    "frontend",
+    "react",
+    "react-component",
+    "ui-components",
+    "ui"
+  ],
   "private": false,
-  "version": "1.0.8",
+  "version": "1.0.9",
   "type": "module",
   "main": "dist/index.cjs.js",
   "license": "MIT",
