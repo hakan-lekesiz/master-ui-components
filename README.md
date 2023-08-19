@@ -1,5 +1,5 @@
 # Master UI Components
-This library contains React UI components and util functions. It has written in Typescript.
+This library contains React UI components and util functions. It has written in Typescript for React projects.
  
 ## 📦 Install
 
